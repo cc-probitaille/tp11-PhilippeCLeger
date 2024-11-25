@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "test": "jest --watchAll --env=jsdom",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "start": "ts-node ./src/main.ts"
   },
   "repository": {
     "type": "git",
